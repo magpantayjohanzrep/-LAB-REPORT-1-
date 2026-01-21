@@ -5,4 +5,4 @@ This repository includes laboratory experiments, technical notes, and procedures
 🎯 Objective
 The primary objective of this repository is to provide a structured technical reference for understanding and validating communication system behavior using real hardware. The content is aimed at reinforcing system-level analysis, improving laboratory proficiency, and supporting engineering coursework or independent study.
 
-![image alt](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/ba2fc60e7b235128239252110a7b5097bf45bf9a/Screenshot%202026-01-21%20183530.png)
+![image alt](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/7537fdd4d2e4b0fe80eb656539a81a7b9de6d042/Emona%20Trainer%20101.png)
