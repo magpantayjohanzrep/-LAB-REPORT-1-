@@ -1,47 +1,29 @@
-📡 EMONA Trainer Kit — Laboratory Experiment Documentation
+# Objectives 📌
 
-This repository contains a collection of laboratory experiments, technical notes, and implementation procedures conducted using the EMONA DATEx / EMONA Trainer Kit, a modular platform designed for studying analog and digital communication systems. The documentation focuses on practical verification of theoretical concepts commonly covered in Electronics and Communications Engineering.
+- Understand mathematical modelling in telecommunications
+  Recognize that communication system outputs can be expressed using equations and learn how these can be represented physically through electronic blocks.
+  
+- Gain familiarity with the Emona Telecoms-Trainer 101 functional modules
+  Identify and use modules such as the Adder and Phase Shifter to construct simple mathematical relationships between signals.
 
-🔍 Scope of Work
+- Implement and observe equations using real electronic signals
+  Use the Trainer to realize equations such as:
 
-The repository includes:
 
-Detailed experiment procedures
+  Output = Signal A + Signal B
 
-Signal flow diagrams and functional block analysis
+  Output = Signal A + Signal B (with phase shift)
 
-Measurement data, oscilloscope captures, and waveform interpretations
+  Measure and compare theoretical and actual results.
 
-Evaluations of modulation, demodulation, filtering, sampling, and digital transmission techniques
+- Analyze the effect of phase shifts on signal addition
 
-Engineering observations and performance assessments for each configuration
 
-🎯 Objective
+# Material and Components Used ⚙️
+- Emona Telecoms-Trainer 101 (plus power pack)
+- Dual Channel 20MHz Oscilloscope
+- two Emona Telecoms-Trainer 101 oscilloscope leads
+- assorted Emona Telecoms-Trainer 101 patch leads 
 
-The primary objective of this repository is to provide a structured technical reference for understanding and validating communication system behavior using real hardware. The content is aimed at reinforcing system-level analysis, improving laboratory proficiency, and supporting engineering coursework or independent study.
+# Circuit Diagram
 
-⚙️ Equipment Utilized
-
-EMONA Trainer Kit (DATEx or equivalent)
-
-Digital Storage Oscilloscope (DSO)
-
-Function Generator
-
-Spectrum Analyzer (if applicable)
-
-Standard laboratory cables and connectors
-
-📁 Repository Use
-
-This repository may serve as:
-
-A supplemental reference for ECE laboratory courses
-
-A technical resource for communication systems analysis
-
-A documentation archive for future engineering work
-
-🤝 Contributions
-
-Contributions, corrections, and additional experiment write-ups are welcome. Please submit a pull request for any enhancements.
