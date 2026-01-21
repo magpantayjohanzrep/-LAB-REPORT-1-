@@ -3,5 +3,4 @@ This repository includes laboratory experiments, technical notes, and procedures
 
 
 🎯 Objective
-
 The primary objective of this repository is to provide a structured technical reference for understanding and validating communication system behavior using real hardware. The content is aimed at reinforcing system-level analysis, improving laboratory proficiency, and supporting engineering coursework or independent study.
