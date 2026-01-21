@@ -51,6 +51,8 @@ Answer:
 - Measurement error, since oscilloscope readings are not perfectly precise.
 - The module gains are not exactly 1, meaning the system does not behave ideally, causing small deviations from the theoretical output.
 
+# Summarization
+
 For the setup shown in Figure 2, the Master Signals module provided a 2 kHz sinewave with an amplitude of approximately 4 Vp-p, which served as the input for both channels of the Adder module. After the gains of the Adder’s inputs were adjusted to be nearly equal, the combined output was observed using the oscilloscope. Theoretically, adding two identical 4 Vp-p sinewaves should produce an output of 8 Vp-p, since the Adder module implements the equation Output = Signal A + Signal B.
 
 However, the measured output was slightly different from the ideal 8 Vp-p value. This deviation is expected due to several practical factors. Oscilloscopes have limited measurement accuracy, which introduces small reading errors. Additionally, the gain controls of the Adder module cannot be set to exactly –1, resulting in slight mismatches in amplitude between the two input paths. Minor loading effects caused by the interconnected modules and probe connections can also reduce the signal amplitude.
@@ -86,6 +88,8 @@ Question 5: What can be said about the gain of the Adder module's two inputs now
 Answer: 
 
 The gains are now much closer to being equal, but they are still not exactly the same, which prevents perfect cancellation.
+
+# Summarization
 
 In the Figure 4 setup, the original 2 kHz sinewave from the Master Signals module was applied to one input of the Adder module, while the same signal was routed through the Phase Shifter module before reaching the second input. The Phase Shifter was set to provide a 180° phase shift, which means the two signals entering the Adder module had the same frequency and amplitude but were opposite in phase. Under ideal conditions, adding two perfectly equal signals that are 180° out of phase should result in complete cancellation, producing an output of 0 Vp-p.
 
