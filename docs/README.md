@@ -25,5 +25,6 @@
 - two Emona Telecoms-Trainer 101 oscilloscope leads
 - assorted Emona Telecoms-Trainer 101 patch leads 
 
-# Circuit Diagram
+# Circuit Diagram ⚡
 
+![FIGURE 2](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/d4ca395e4cf3c554b7d8f29c1c5447ca00d16bde/docs/images/Screenshot%202026-01-21%20190551.png)
