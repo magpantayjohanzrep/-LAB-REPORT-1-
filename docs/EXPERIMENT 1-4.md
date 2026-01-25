@@ -1,3 +1,164 @@
+# EXPERIMENT 1 
+
+# SETTING UP AN OSCILLOSCOPE 🧰 
+
+# Objective 📌
+- The goal of this experiment is to understand how a cathode ray oscilloscope (CRO) works. It involves learning how to properly configure the oscilloscope, produce a steady waveform display, and measure important characteristics of an AC signal,such as its peak-to-peak voltage and its period or frequency,using the scope’s calibration (CAL) output.
+
+
+# Materials ⚙️
+- Dual-channel 20 MHz oscilloscope
+- Oscilloscope probe/lead
+- Oscilloscope CAL (calibration) output
+
+# Initial Setup 📌
+
+- Adjust the intensity, focus, and display mode.
+
+- Set the vertical controls, including AC coupling, volts per division, and vertical position.
+
+- Set the horizontal controls such as the time per division and horizontal position.
+
+- Configure the trigger system to AUTO, selecting the correct trigger source and slope.
+
+# Powering Up 📌
+
+- Switch on the oscilloscope and let it warm up.
+
+- Fine-tune the brightness and focus to obtain a clear trace.
+
+- Testing the Oscilloscope 📌
+
+-  Connect Channel 1 to the CAL output.
+
+- Check that a steady square-wave signal is visible on the display.
+
+# Measuring Peak-to-Peak Voltage 📌
+
+- Adjust the vertical scale so the waveform occupies most of the screen.
+
+- Count how many vertical divisions span the waveform’s height.
+
+- Multiply this number by the volts/div setting to get the peak-to-peak voltage.
+
+- Record the measured Vpp value.
+
+# Measuring Period and Frequency 📌
+
+- Set the timebase so that one whole cycle is clearly shown.
+
+- Count the horizontal divisions for one complete cycle.
+
+- Multiply this by the time/div setting to determine the period.
+
+- Compute the frequency by taking the inverse of the period.
+
+# Results 🧪
+A clear and stable square-wave from the CAL output was displayed. The peak-to-peak voltage was determined using the vertical divisions and volts/div settings. The period of the signal was obtained from the horizontal divisions and the timebase value, and the frequency was derived from the measured period.
+
+# EXPERIMENT 2: An Introduction to the Telecoms-Trainer 101 🧰 
+
+# Objective 📌
+- This experiment provides a practical introduction to the Emona Telecoms-Trainer 101. The primary goal is to bridge the gap between theoretical block diagrams found in textbooks and physical hardware implementation.
+
+# Materials ⚙️​
+
+- Emona Telecoms-Trainer 101 (plus power-pack)
+- Dual Channel 20MHz Oscilloscope
+- two Emona Telecoms-Trainer 101 oscilloscope leads
+- assorted Emona Telecoms - Trainer 101 patch leads
+- For 2.1 only - one set of headphones (stereo)
+
+# Part 2.1 Master Signals, Speech, and Buffer Modules 📌
+
+# Circuit Diagram (Master Signals Module) ⚡
+
+![Master Signals Module](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/91e1b71ede11ec6d4807ea3f68fabb7074b9b05b/docs/images/Screenshot%202026-01-25%20160721.png)
+
+# Simulation 🧑‍🔧
+
+![Master Signals](https://github.com/user-attachments/assets/ed1509e9-f817-46da-af13-21854475f405)
+![Master Signals](https://github.com/user-attachments/assets/f99786af-8583-420e-a902-1600006f1005)
+
+# Circuit Diagram (The Speech Module)
+
+![Speech Module](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/a4e8689854dfe9545c7f2b2e5a7ba14e361ad451/docs/images/Screenshot%202026-01-25%20161538.png)
+
+# Simulation 🧑‍🔧
+
+![Image](https://github.com/user-attachments/assets/1c01ed0f-8caa-4005-8e85-6a458edd0ca0)
+
+# Speech Module with Voice Input
+
+https://github.com/user-attachments/assets/256c4d18-d75f-432f-a864-f71a33d00cf1
+
+# Circuit Diagram (Buffer Module)
+
+![Buffer Module](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/89860f7b829c9219838e7da167fcc418f42dd985/docs/images/Screenshot%202026-01-25%20161851.png)
+
+# Output Waveform when being varied
+
+# FULLY ANTI-Clockwise until there is a waveform
+![Image](https://github.com/user-attachments/assets/444a3116-6d1c-4fc5-99fb-cc8ab2969286)
+
+# FULLY Clockwise
+![Image](https://github.com/user-attachments/assets/bdd3bad1-a697-4974-a11f-739c7ca15511)
+
+# FULLY ANTI-Clockwise
+![Image](https://github.com/user-attachments/assets/3a9df7fb-1bdd-4b49-9c3c-f69f6db18e46)
+
+# Part 2.2: The Adder and Phase Shifter Modules 📌
+
+# 4.1 The Adder Module
+Used to combine multiple signals together.
+* **Control G**: Varies the gain for Input A.
+* **Control g**: Varies the gain for Input B.
+
+![Image](https://github.com/user-attachments/assets/a8a89643-1b15-430c-a668-4046a72210e1)
+
+https://github.com/user-attachments/assets/814bf475-49ec-4525-aa0f-7c52c3288c13
+
+# 4.2 The Phase Shifter Module
+Allows a signal to be shifted by a variable amount.
+* **Phase Adjust**: Varies the shift amount.
+* **Phase Change**: Toggles between $0^\circ$ and $180^\circ$ base positions.
+* **Capability**: Can make the signal either lead or lag the input.
+
+![Image](https://github.com/user-attachments/assets/705fcb6c-d8aa-4edd-a7fb-2870b4691aa7)
+
+# PHASE SHIFTED
+![Image](https://github.com/user-attachments/assets/0aefe038-a927-4bf0-bd31-e8ac7caeab2b)
+
+---
+
+# Part 2.3: The Voltage Controlled Oscillator (VCO) 📌
+
+The VCO differs from Master Signals because its frequency is variable rather than fixed.
+![Image](https://github.com/user-attachments/assets/1f4539b3-5794-4fb3-83ac-b932e7cbf39d)
+
+![Image](https://github.com/user-attachments/assets/9255f7e6-4b63-4c5d-b90c-f9ad020352d9)
+
+![Image](https://github.com/user-attachments/assets/e7b9c7ce-dd2a-4306-9b3e-dadd916889e6)
+
+# 5.1 Frequency Ranges
+| Range Setting | Min Frequency | Max Frequency |
+| :--- | :--- | :--- |
+| **LO** | [User Data] | [User Data] |
+| **HI** | [User Data] | [User Data] |
+
+# 5.2 Electronic Control
+- When a Variable DCV module is connected to the VCO input, the oscillator’s frequency can be adjusted electronically:
+- Increasing the DC voltage (rotating clockwise) raises the output frequency.
+ -Lowering the DC voltage (rotating counter-clockwise) decreases or brings back the frequency.
+
+# 6. Lab Questions
+- Gain vs. Attenuation – Gain means the output signal becomes larger than the input, while attenuation means the output is reduced in size.
+- Clipping Description – When the gain is set too high, the waveform becomes flattened or cut off at the top and bottom, indicating it has reached the supply limits.
+- VCO Frequency Behavior – Rotating the DCV control clockwise causes the VCO’s output frequency to increase.
+
+
+# EXPERIMENT 3: Using the Telecoms-Trainer 101 to model equations 🧰 
+
 # Objectives 📌
 
 - Understand mathematical modelling in telecommunications
@@ -7,13 +168,10 @@
   Identify and use modules such as the Adder and Phase Shifter to construct simple mathematical relationships between signals.
 
 - Implement and observe equations using real electronic signals
+  
   Use the Trainer to realize equations such as:
-
-
   Output = Signal A + Signal B
-
   Output = Signal A + Signal B (with phase shift)
-
   Measure and compare theoretical and actual results.
 
 - Analyze the effect of phase shifts on signal addition
@@ -97,13 +255,92 @@ When the output of the Adder module was measured on the oscilloscope, the result
 
 Despite these limitations, the observed output still demonstrated a strong reduction in amplitude, confirming that the system effectively modeled the equation Output = Signal A + Signal B (with phase shift). The large decrease in amplitude shows that the two signals nearly cancel each other, highlighting how phase differences directly affect the result of signal addition. The small remaining output is consistent with normal experimental imperfections rather than incorrect behavior of the system.
 
-# Learnings 📘
+# EXPERIMENT 4: Amplitude Modulation (AM) ∿
 
-The experiment demonstrated how mathematical equations can be represented and analyzed using actual electronic circuits. It showed that telecommunications signals are not only theoretical concepts but can also be modeled physically using functional blocks such as the Adder and Phase Shifter modules of the Emona Telecoms-Trainer 101. By applying identical and phase-shifted sinewave signals, the experiment highlighted how addition and cancellation of signals occur in real systems and how these results compare with theoretical predictions.
+# Objectives 📌
 
-The activity also reinforced the importance of understanding how phase relationships affect signal behavior. The setup using a 180° phase shift clearly illustrated that two signals with equal amplitude and opposite phase ideally cancel each other, although real setups always show small deviations due to hardware limitations. Additionally, the experiment emphasized that gain settings, phase accuracy, loading effects, and oscilloscope measurement precision all play roles in why actual outputs differ slightly from calculated values.
+- To construct the mathematical form of an AM signal using the available hardware modules.
+- To examine how the message (baseband) signal interacts with the carrier signal.
+- To study how different message inputs—such as a sinewave and speech—affect the modulation process.
+- To compute and evaluate the modulation index ($m$) and observe what happens when the system becomes over-modulated.
 
-Through analyzing these variations, the experiment provided deeper insight into the difference between ideal mathematical modeling and practical electronic implementation. It also demonstrated how critical accurate phase and amplitude control are in telecommunications systems, especially when dealing with signal addition and cancellation. Overall, the experiment strengthened the understanding of how communication equations translate into real-world signal behavior and highlighted the importance of careful measurement, module configuration, and error analysis in laboratory work.
+# Material and Components Used ⚙️
+- Emona Telecoms-Trainer 101 (plus power pack)
+- Dual Channel 20MHz Oscilloscope
+- two Emona Telecoms-Trainer 101 oscilloscope leads
+- assorted Emona Telecoms-Trainer 101 patch leads
+
+# Figure 1
+
+![Diagram](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/72126976296dd6824e13e8a0a38e7bf212ab2eeb/docs/images/Screenshot%202026-01-25%20162851.png)
+
+- Figure 1 illustrates the basic components involved in amplitude modulation. At the top, the message signal is shown as a low-frequency sine wave, representing information such as speech or music. Below it is the unmodulated carrier, a much higher-frequency sine wave that will be used to transmit the message. Since the carrier alone contains no information, its amplitude remains constant. At the bottom is the resulting AM signal, which is produced by varying the amplitude of the high-frequency carrier according to the instantaneous value of the message signal. When the message signal is high, the amplitude of the carrier increases; when the message signal is low, the carrier amplitude decreases. This variation creates an outer shape—called an envelope—that resembles the message signal.
+
+# Figure 2
+
+![Diagram](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/72126976296dd6824e13e8a0a38e7bf212ab2eeb/docs/images/Screenshot%202026-01-25%20162916.png)
+
+- Figure 2 presents the same AM signal but highlights its envelopes. The upper envelope traces the peaks of the modulated carrier and follows the exact shape of the message signal. The lower envelope traces the troughs of the AM wave and is the inverted version of the message. These two envelopes visually demonstrate how the message is embedded within the AM signal. Even though the modulated waveform itself oscillates rapidly, its overall outline still matches the message signal. This clearly shows that the amplitude of the carrier is being controlled by the message, which is the fundamental principle of amplitude modulation.
+
+# Procedure 🔧
+
+- Part A: Generating an AM signal using a simple message 📌
+
+The setup utilizes an **Adder module** to combine a DC offset with the message signal, followed by a **Multiplier module** to modulate the carrier.
+
+**System Block Diagram:**
+1.  **DC + Message:** A 2kHz sine wave is added to a 1V DC offset.
+2.  **Product:** This sum is multiplied by a 100kHz carrier sine wave.
+3.  **Result:** The carrier's amplitude varies in proportion to the message's instantaneous value.
+
+![Image](https://github.com/user-attachments/assets/d56549e6-0bab-44a3-896a-4f5c33f81594)
+
+# Part B: Speech Modulation
+The 2kHz sine wave is replaced with the **Speech module** output. Observations show that the "envelope" of the AM signal tracks the complex fluctuations of human speech.
+
+# AM Signal using Speech Module
+![Image](https://github.com/user-attachments/assets/c699fd5a-26d2-4ce5-b4f0-cedc20bd7572)
+
+# Simulation 
+https://github.com/user-attachments/assets/204a16ad-8426-46a6-ab01-0553296196aa
+
+# Results and Discussion 🖋📒
+
+- Question 1: In what way is the Adder module's output different from the original 2kHz sine?
+
+Answer:  The output of the Adder module is no longer the same as the original 2 kHz sine wave because it now includes a DC offset. This causes the entire waveform to shift upward, placing most or all of it in the positive 
+voltage range.
+
+- Question 2:  What feature of the Multiplier output suggests it is an AM signal?
+
+Answer:The Multiplier’s output can be identified as an AM signal because the outline or envelope of the high-frequency carrier follows the same shape as the lower-frequency message signal.
+
+- Question 3: Is one of the signals in the AM complex a 2kHz sinewave?
+
+Answer: None of the individual components in the AM spectrum is actually a 2 kHz sine wave. Although the envelope appears to have that frequency, the true frequencies present are the carrier, the carrier plus 2 kHz, and the carrier minus 2 kHz.
+
+- Question 4: Why is there a signal out of the Multiplier even when not speaking (Speech module)?
+- 
+Answer: A signal still appears at the Multiplier output even with no speech input due to the DC term in the modulation equation. When the message is zero, the expression (DC+0)×carrier still produces a carrier with constant amplitude.
+
+# Reflection/Learning Summary 💡
+
+- Through the series of experiments using the oscilloscope and the Emona Telecoms-Trainer 101, I gained a deeper understanding of how theoretical telecommunications concepts are applied in real hardware systems. In Experiment 1, I learned not just how to operate a cathode ray oscilloscope (CRO), but also why proper setup is essential for obtaining accurate measurements. Adjusting the vertical and horizontal controls, configuring the trigger, and using the CAL output helped me understand how waveforms are displayed and how peak-to-peak voltage, period, and frequency are measured. This experiment strengthened my foundation in reading and interpreting AC signals, which became crucial in the next experiments.
+
+- In Experiment 2, I was introduced to the Emona Telecoms-Trainer 101 and saw how the block diagrams in textbooks translate into actual circuits. Working with modules like Master Signals, Speech, Buffers, Adders, and Phase Shifters made me appreciate how each block represents a specific mathematical or functional operation. By listening to the speech module and observing the resulting signals, I understood how real audio is converted into electrical form. The Buffer and Adder experiments showed how signals can be conditioned, combined, or altered, while the Phase Shifter demonstrated how phase differences affect signal addition. The VCO experiment also taught me the idea of frequency control, where adjusting a DC voltage can vary the output frequency in real time.
+
+- Experiment 3 further solidified the connection between equations and hardware behavior. By modeling expressions like
+Output = Signal A + Signal B and
+Output = Signal A + Signal B (with phase shift)
+I saw how even small mismatches in gain or phase create measurable differences in the output. Ideal calculations predicted perfect addition or complete cancellation, but real results showed slight deviations, reminding me that practical systems always include imperfections such as measurement errors, component tolerances, and loading effects. These hands-on observations helped me understand why theoretical models must always consider real-world limitations.
+
+- Finally, Experiment 4 tied together the concepts of signals, addition, multiplication, and phase by constructing an actual Amplitude Modulation (AM) system. Seeing how the carrier’s amplitude changes according to the message—first with a simple sinewave and later with speech—made the AM equation feel intuitive and visual. I learned how the envelope of the modulated wave represents the message, why the spectrum contains the carrier ± message frequencies, and how the DC offset ensures that modulation still occurs even with silence. Observing the effect of speech on the AM signal also showed me how communication systems encode real information onto high-frequency carriers for transmission.
+
+- Overall, these experiments gave me a strong, practical understanding of signal behavior in telecommunications. I learned how equipment like oscilloscopes and functional modules reveal the true nature of electronic signals, how mathematical operations like addition, multiplication, and phase shifting occur physically, and how real-world factors affect theoretical expectations. Most importantly, I realized that telecommunications is not just about equations—it is about how these equations come alive through hardware, waveforms, and observable behaviors. This hands-on experience significantly deepened my confidence and comprehension of analog communication principles.
+
+
+
+
 
 
 
