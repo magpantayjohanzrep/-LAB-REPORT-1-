@@ -1,3 +1,5 @@
+# INTRODUCTION 
+
 📡 EMONA Trainer Kit – Experiment Repository
 
 This repository contains experiment guides, documentation, and example activities using the EMONA Trainer Kit, a modular telecommunications training system commonly used in Electronics Engineering laboratory courses. The goal of this project is to provide clear, organized, and easy-to-follow resources for students, instructors, and hobbyists working with analog and digital communication concepts.
@@ -39,3 +41,7 @@ This repository contains experiment guides, documentation, and example activitie
 - Multimeter
 
 - Standard lab cables and connectors
+
+# EMONA TRAINER 101
+
+![EMONA KIT](https://github.com/magpantayjohanzrep/-LAB-REPORT-1-/blob/9e869f4d12c822672cb5fc48d507cc1b753ecea3/docs/images/Emona%20Trainer%20101.png)
